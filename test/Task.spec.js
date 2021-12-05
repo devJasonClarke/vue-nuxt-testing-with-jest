@@ -15,7 +15,7 @@ describe('Testing Task component', () => {
   test('Test non existent prop', () => {
     const wrapper = mount(Task, {
       propsData: {
-        run: 'aas',
+        run: "let's go",
       },
     })
 
